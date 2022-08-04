@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Fira Sans", sans-serif;
+  background-color:black;
 }
 
 header {
@@ -11,10 +12,86 @@ header {
 }
 header h1 {
   color: #AAA;
-  font-size: 36px;
+  font-size: 7em;
   font-weight: 400px;
   text-align: center;
 }
 header h1 strong {
-  color: #313131;
+  color: rgb(106, 90, 205);
 }/*# sourceMappingURL=main.css.map */
+
+.top_manga{
+  font-size:3em;
+  width:80vw;
+  margin:auto;
+  color:rgb(106, 90, 205)
+}
+
+.slide_container{
+  border:2px green solid;
+  max-width:80vw;
+  height:50vh;
+  position:relative;
+  margin:auto;
+}
+
+.top_manga_img{
+  height:50vh;
+}
+.slides{
+  max-width: 50%;
+  /* border:solid 5px black; */
+}
+.caption {
+  color:white;
+  font-size: 15px;
+  padding: 8px 12px;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.displaynone{
+  display:none;
+  border:solid pink 5px;
+}
+.displayblock{
+  display:flex;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+/* .prev{
+  left:0px;
+} */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: blue;
+}
+
+
+.slides {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}

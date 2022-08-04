@@ -17,6 +17,7 @@ function MainContent(props) {
             </form>
         </div>
         <div className="manga-list">
+            
             {props.mangalist.map(manga=>(
                 <div className="manga-card">
                     <MangaCard

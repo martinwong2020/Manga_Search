@@ -8,7 +8,7 @@ function MangaCard(props) {
             rel="noreferrer"
             key={props.manga.mal_id}>
             <figure>
-                <img src={props.manga.image_url}
+                <img src={props.manga.images.jpg.image_url}
                 alt="Manga Image"/>
 
             </figure>
