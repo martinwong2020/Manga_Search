@@ -37,7 +37,7 @@ function Sidebar(props) {
     <aside>
         <nav>
             <h3 className="top_manga">Top Manga</h3>
-            
+            <br></br>
               {props.topManga.map((manga,index) =>{
                 if(index==0){
                   return(
@@ -53,9 +53,12 @@ function Sidebar(props) {
                         </a>
                       </div>
                       <div className="caption">
-                          {manga.title}
+                          <h1 class="caption_title">{manga.title_japanese} ({manga.title_english})</h1>
                           <br></br>
-                          {manga.synopsis}  
+                          <p class="manga_info">{manga.synopsis}</p>
+                          <p class="manga_info">User Ratings: {manga.score}</p>
+                          <p class="manga_info">Volumes Out/Chapters: {manga.volumes}/{manga.chapters}</p>
+                          <p class="manga_info">Manga Status: {manga.status}</p>
                       </div>
                     </div>            
                   )
@@ -74,9 +77,12 @@ function Sidebar(props) {
                         </a>
                       </div>
                       <div className="caption">
-                          {manga.title}
+                          <h1 class="caption_title">{manga.title_japanese} ({manga.title_english})</h1>
                           <br></br>
-                          {manga.synopsis}  
+                          <p class="manga_info">{manga.synopsis}</p>
+                          <p class="manga_info">User Ratings: {manga.score}</p>
+                          <p class="manga_info">Volumes Out/Chapters: {manga.volumes}/{manga.chapters}</p>
+                          <p class="manga_info">Manga Status: {manga.status}</p>
                       </div>
                     </div>  
                   )
