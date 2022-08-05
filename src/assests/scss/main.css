@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Fira Sans", sans-serif;
-  background-color:black;
+  background-color:rgb(27, 28, 27);
 }
 
 header {
@@ -20,11 +20,11 @@ header h1 strong {
   color:#99C2F2;
 }/*# sourceMappingURL=main.css.map */
 
-.top_manga{
+.top_manga, .top_manhua{
   font-size:3em;
   width:80vw;
   margin:auto;
-  color:#99C2F2;
+  color:rgb(0, 132, 255);
 }
 
 .slide_container{
@@ -53,7 +53,8 @@ header h1 strong {
 }
 .caption_title{
   font-size:3em;
-  border-bottom:solid 2px #99C2F2;
+  /* border-bottom:solid 2px #99C2F2; */
+  color:rgb(11, 71, 128)
 }
 
 .manga_info{
@@ -61,12 +62,16 @@ header h1 strong {
 }
 .displaynone{
   display:none;
-  border:solid pink 5px;
 }
 .displayblock{
   display:flex;
 }
-.prev, .next {
+hr{
+  border:solid 2px #99C2F2;
+  width:50%;
+  margin:auto;
+}
+.prev, .next, .prev_manhua,.next_manhua {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -79,18 +84,20 @@ header h1 strong {
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
+  opacity:0.5;
 }
 /* .prev{
   left:0px;
 } */
-.next {
+.next, .next_manhua {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
+.prev:hover, .next:hover, .prev_manhua:hover, .next_manhua:hover {
   background-color:#99C2F2;
+  opacity:1;
 }
 
 
@@ -102,4 +109,69 @@ header h1 strong {
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+/* .main-head, .search-box{
+  width:99%;
+  border:solid white 2px;
+  display:flex;
+} */
+.SearchBar{
+  position:absolute;
+  color:black;
+  width:30vw;
+  justify-self:center;
+  right:20px;
+  height:1.75em;
+
+  background-color:white;
+  border-radius:25px;
+  text-align:center;
+  font-size: 2.5em;
+}
+.SearchBar::placeholder{
+  font-size:1em;
+}
+
+.margin{
+  height:5em;
+}
+
+.manhua_container{
+  color:white;
+  /* border-top: solid 5px rgb(11, 71, 128); */
+  max-width:80vw;
+  height:50vh;
+  position:relative;
+  margin:auto;
+  display:flex;
+}
+.manhua_slide{
+  max-width:30%;
+}
+
+.manhua_none{
+  display:none;
+}
+.manhua_block{
+  display:flex;
+}
+.manga-list{
+  /* border:solid 2px greenyellow; */
+  display:flex;
+  justify-content: space-evenly;
+}
+.manga-card{
+  max-width:20vw;
+  /* border:solid 2px burlywood; */
+}
+.manga_search_text{
+  color:rgb(75, 153, 255);
+  text-decoration: none;
+}
+a{
+  text-decoration:none;
+}
+.line{
+  width:99vw;
+  border-bottom:5px white solid;
 }

@@ -12,7 +12,7 @@ function MangaCard(props) {
                 alt="Manga Image"/>
 
             </figure>
-            <h3>{props.manga.title}</h3>
+            <h3 className="manga_search_text">{props.manga.title}</h3>
         </a>
     </article>
   )
