@@ -14,7 +14,7 @@
  5. Information display with the manga
 ## Web Images
 ![alt text](https://github.com/martinwong2020/Manga_Search/blob/main/images/Pic1.PNG?raw=true)
-![alt text](https://github.com/martinwong2020/Manga_Search/blob/main/images/pic2.PNGraw=true)
+![alt text](https://github.com/martinwong2020/Manga_Search/blob/main/images/pic2.PNG?raw=true)
 ![alt text](https://github.com/martinwong2020/Manga_Search/blob/main/images/pic3.PNG?raw=true)
 ## Challenges 
     1.Getting the top Manga/Manhua to automatically slide after a period of time to show a different top Manga/Manhua.
