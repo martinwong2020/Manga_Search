@@ -13,9 +13,9 @@
  4. A front and back button to change display of the manga display
  5. Information display with the manga
 ## Web Images
-![alt text](https://github.com/martinwong2020/Manga_Search)
-![alt text](https://github.com/martinwong2020/Crumble_Building_Game/blob/main/img/jumping.PNG?raw=true)
-![alt text](https://github.com/martinwong2020/Crumble_Building_Game/blob/main/img/Game_over.PNG?raw=true)
+![alt text](https://github.com/martinwong2020/Manga_Search/blob/main/images/Pic1.PNG?raw=true)
+![alt text](https://github.com/martinwong2020/Manga_Search/blob/main/images/pic2.PNGraw=true)
+![alt text](https://github.com/martinwong2020/Manga_Search/blob/main/images/pic3.PNG?raw=true)
 ## Challenges 
     1.Getting the top Manga/Manhua to automatically slide after a period of time to show a different top Manga/Manhua.
         Solution: I was able to wait for the promise to be fullfilled before trying to access and display so no NUll Error occurred.
