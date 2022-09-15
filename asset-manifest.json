@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Manga_Search/static/css/main.c9e19b69.css",
+    "main.js": "/Manga_Search/static/js/main.49bc4ca6.js",
+    "index.html": "/Manga_Search/index.html",
+    "main.c9e19b69.css.map": "/Manga_Search/static/css/main.c9e19b69.css.map",
+    "main.49bc4ca6.js.map": "/Manga_Search/static/js/main.49bc4ca6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c9e19b69.css",
+    "static/js/main.49bc4ca6.js"
+  ]
+}
