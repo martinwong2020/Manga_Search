@@ -6,6 +6,8 @@
     1. One Fetch Request for Top Manga
     2. One Fetch Request for Top Manhua
     3. One fetch request for user search
+## Website:
+### https://martinwong2020.github.io/Manga_Search/
 ## Features
  1. Search Bar that displays the top 5 results related to the manga search
  2. Top Manga and Manhua Display/Recommend
